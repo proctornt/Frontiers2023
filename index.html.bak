@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Life of Noah Proctor</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 3.0.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+  </head>
+  <body>
+    <div id="tswcontainer">
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here -->
+        <p> </p>
+        <p> </p>
+        <img src="Website%20Info/OYFC_site-logo_01.png" alt="pirates" title="Pirates"
+
+          id="pirates">
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div id="tswcontent">
+        <div id="tswcontproper">
+          <!-- start of content column: insert your content here -->
+          <h1>Welcome</h1>
+          <p>I'm Noah Proctor and I am from Oxford, Massachusetts! There isnt
+            much to do in Oxford as it is a realtivly small town but it can be
+            fun. </p>
+          <p> I love my school and love to be involved in it. It really is my
+            life. I am the treasuer of my class I am also the treasurer of
+            Student Council and Best Buddies. On top of all of that I am in NHS
+            and play 3 sports.</p>
+          <p> For fun me and my friends will go and ride out bikes back in the
+            woods and hang out in different areas around our town and relax and
+            take in the scenery . </p>
+          <p>&nbsp;</p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <p> <a href="file://///users.wpi.edu/personalweb/public_html/Intrests%20Page/Insert%20web%20page%20title%20here.html">Intrests</a>.
+          </p>
+          <!-- end of side column: put your navigation menu, etc, above this line -->
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="tswfooter">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p> Placeholder content for the footer: please replace these words with
+          your real content. </p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+  </body>
+</html>
