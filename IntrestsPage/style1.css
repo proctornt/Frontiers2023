@@ -5,7 +5,7 @@ body {
   font-style: normal;
   text-transform: none;
   font-variant: normal;
-  background-color:black;
+  background-color: black;
 }
 
 img {
@@ -91,5 +91,11 @@ div#tswfooter {
 
 #tswcontainer {
   color: white;
+}
+
+#kk {
+  float: none;
+  left: auto;
+  right: auto;
 }
 
