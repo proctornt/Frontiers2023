@@ -38,7 +38,7 @@
       <div id="tswsidecol">
         <div id="tswsideproper">
           <!-- start of side column: insert your navigation menu, etc, here -->
-          <p> <a href="file://///users.wpi.edu/personalweb/public_html/Intrests%20Page/Insert%20web%20page%20title%20here.html">Intrests</a>.
+          <p> <a href="IntrestsPage/myinterest.html">Intrests</a>.
           </p>
           <!-- end of side column: put your navigation menu, etc, above this line -->
         </div>

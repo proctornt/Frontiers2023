@@ -5,6 +5,7 @@ body {
   font-style: normal;
   text-transform: none;
   font-variant: normal;
+  background-color:black;
 }
 
 img {
@@ -73,6 +74,7 @@ div#tswfooter {
 
 #pirates {
   display: block;
+  margin: auto;
 }
 
 #fff {
