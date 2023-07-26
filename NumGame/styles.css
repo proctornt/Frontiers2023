@@ -33,7 +33,7 @@ div#tswsidecol {
 div#tswcontent {
   float: right;
   width: 80%;
-  color: black;
+  color: white;
   background-color: black;
 }
 
@@ -77,13 +77,6 @@ div#tswfooter {
   margin: auto;
 }
 
-#fff {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  left: auto;
-  right: auto;
-}
 
 #tswcontproper {
   color: white;

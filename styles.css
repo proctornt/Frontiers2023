@@ -5,7 +5,7 @@ body {
   font-style: normal;
   text-transform: none;
   font-variant: normal;
-  background-color:black;
+  background-color: black;
 }
 
 img {
@@ -91,5 +91,9 @@ div#tswfooter {
 
 #tswcontainer {
   color: white;
+}
+
+#pirate {
+  float: none;
 }
 

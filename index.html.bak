@@ -40,6 +40,7 @@
           <!-- start of side column: insert your navigation menu, etc, here -->
           <p> <a href="IntrestsPage/myinterest.html">Interests</a>. </p>
           <p> <a href="MyHome/myhome.html">My Home Town</a>. </p>
+          <p><a href="NumGame/index.html">Number Guessing Game.</a></p>
           <!-- end of side column: put your navigation menu, etc, above this line -->
           <p></p>
         </div>
@@ -51,6 +52,5 @@
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
-    
   </body>
 </html>
