@@ -1,17 +1,15 @@
-const guess = document.getElementById("guess")
-const report= document.getElementById("report")
+const guess = document.getElementById("guess");
+const report = document.getElementById("report");
 
 const MAXNUM = 100;
-let secret; 
+let secret;
 
-function loadGame(){
-
+function loadGame() {
     guess.max = MAXNUM;
-    secret=math.floor(math.random()*MAXNUM);
+    secret = Math.floor(Math.random() * (MAXNUM+1));
     report.innerHTML = secret;
 }
 
-function makeGuess(){
-
+function makeGuess() {
 
 }
