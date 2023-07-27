@@ -26,7 +26,7 @@ function multiplication(){
 function Division(){
     if (num1.value === "22" && num2.value === "7") {
         piImage.style.visibility = "visible";
-        setTimeout(hide, 5000);
+        
         
     }
     result.innerHTML=parseFloat(num1.value)/parseFloat(num2.value);

@@ -1,10 +1,14 @@
 const guess = document.getElementById("guess");
 const report = document.getElementById("report");
 const body = document.body;
-let start = Date.now(); // remember start time
+
 
 const MAXNUM = 100;
 let secret;
+var myConfetti = confetti.create(null, {
+    resize: true,
+    useWorker: true
+});
 
 function loadGame() {
     guess.max = MAXNUM;
@@ -25,6 +29,10 @@ function makeGuess() {
     }else {
         report.innerHTML +=`<br/>{${myGuess}] is correct!`
         // body.style.backgroundColor=`#ddddff`
+        myConfetti({
+            particleCount: 100,
+            spread: 100,
+        });
        
         
         
