@@ -1,3 +1,4 @@
+
 function rollAll() {
 	let dice = document.getElementsByClassName("die");
 	for (let die of dice) {
@@ -34,6 +35,7 @@ function getRandom(max, min) {
 	randFloat *= (max - min + 1);
 	randFloat += min;
 	return Math.floor(randFloat);
+	
 }
 
 function posMod(n, m) {
@@ -48,4 +50,6 @@ function getResult(rotX, rotY) {
 	let countY = posMod(rotY / 90 + countX, 4);
 	
 	return [1, 4, 2, 3][countY];
+
 }
+
