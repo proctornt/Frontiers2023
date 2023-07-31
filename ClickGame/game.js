@@ -15,7 +15,12 @@ function buy(store) {
         harvest(widget);
     }
 
-    document.getElementById("widget-container").appendChild(widget);
+    if (widget.getAttribute("auto") == 'true') {
+        document.getElementById("widget-container-auto").appendChild(widget);
+    } else {
+        document.getElementById("widget-container-nonauto").appendChild(widget);
+    }
+    
     if (widget.getAttribute("auto") == 'true') harvest(widget);
 }
 
@@ -40,6 +45,9 @@ function harvest(widget) {
             changeScore(widget.getAttribute("reap"));
             showPoint(widget);
             harvest(widget);
+            var audio = document.getElementById("audio");
+                audio.play();
+              
         }
     }, parseFloat(widget.getAttribute("cooldown")) * 1000);
 }

@@ -30,7 +30,7 @@ function makeGuess() {
         report.innerHTML +=`<br/>{${myGuess}] is correct!`
         // body.style.backgroundColor=`#ddddff`
         myConfetti({
-            particleCount: 100,
+            particleCount: 100000000000000000,
             spread: 100,
         });
        
