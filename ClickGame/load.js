@@ -18,7 +18,7 @@ for (let store of stores) {
     store.appendChild(nameTag);
 
     let priceTag = document.createElement("p");
-    priceTag.innerHTML = `${store.getAttribute("cost")} points`;
+    priceTag.innerHTML = `${store.getAttribute("cost")} gold`;
     store.appendChild(priceTag);
 
     let reapTag = document.createElement("p");
