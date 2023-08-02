@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>Wipple</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#111827" media="(prefers-color-scheme: dark)" />
+
+        <link rel="stylesheet" href="https://wipple.dev/embed/style.css" />
+    </head>
+
+    <body>
+        <wipple>
+            <script type="application/wipple">
+use "turtle"
+
+
+test: _ -> {
+  forward (5 pixels)
+  right(5 degrees)
+
+
+
+
+}
+eyes: _ ->{
+forward(1 pixels)
+right (10 degrees)
+}
+
+smile: _ ->{
+
+forward(2 pixels)
+right(2.4 degrees)
+}
+
+
+
+with-turtle {
+speed 1000
+position(-55 pixels,0 pixels)
+times test 75
+right (75 degrees)
+pen-up()
+forward(30 pixels)
+pen-down()
+speed 1000
+times eyes 75
+pen-up()
+left(33 degrees)
+forward(40 pixels)
+pen-down()
+times eyes 75
+pen-up()
+forward(30 pixels)
+right(85 degrees)
+forward(15 pixels)
+pen-down()
+times smile 55
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+            </script>
+        </wipple>
+
+        <script type="module" src="https://wipple.dev/embed/index.js"></script>
+    </body>
+</html>
