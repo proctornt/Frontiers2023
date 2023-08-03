@@ -3,6 +3,11 @@ class NWSGetGrid {
         this.lat = 42.2959;
         this.lon = -71.7129;
     }
+    setLonLat(lon,lat){
+        this.lat = lat;
+        this.lon = lon;
+
+    }
 
     request(callback) {
         var xhttp = new XMLHttpRequest();

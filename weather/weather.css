@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(1, 1, 20);
+}
+
+h2, p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#dev-controls {
+    width: auto;
+    border-color: white;
+    border-style: solid;
+    background-color: rgba(127, 127, 127, 0.5);
+}
+
+.controls {
+    display: flex;
+    padding: 5px;
+}
+
+#forecast-table {
+    color: white;
+    border-collapse: collapse;
+}
+
+#forecast-table tr td, #forecast-table tr th {
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+
+.test{
+    color: red;
+}
+
+.town{
+
+    color:"pink";
+}

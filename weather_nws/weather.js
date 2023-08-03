@@ -6,6 +6,12 @@ function button() {
     nwsGetGrid.request(getWeather);
 }
 
+function button2(){
+    nwsGetGrid.setLonLat(lon.value,lat.value);
+    lon.value = null;
+    lat.value = null;
+}
+
 function getWeather(){
 
     nwsGetForecast.gridId=nwsGetGrid.getGridId();
@@ -26,17 +32,17 @@ function displayweather(){
     cond.innerHTML = str
     str=str.split("then")[0].toLowerCase()
     if(str.includes("sunny")){
-        img.src = "./snow.png";
+        img.src = "./Elements/sun.png";
     
 
 
     }else if(str.includes("cloudy")){
-        img.src = "./rain.png";
+        img.src = "./cloudy.png";
 
     }else if(str.includes("snow")){
-        img.src = "./rain.png";
+        img.src = "./snow.png";
 
-    }else if(str.includes("snow")){
+    }else if(str.includes("rain")){
         img.src = "./rain.png";
 
     }
