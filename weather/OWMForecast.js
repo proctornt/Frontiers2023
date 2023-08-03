@@ -44,13 +44,22 @@ class OWMForecast {
         let date = new Date(unix); // pass in ms
         let hours = date.getHours();
         let minutes = date.getMinutes();
-        
-        if(hours>12){
+        let ampm = "AM";
+
+        if(hours==0){
+           hours=12
+            
+        }else if(hours==12){
+            ampm="PM"
+        }else if (hours>12){
             hours=hours-12
+            ampm="PM"
         }
     
+        let month = date.getMonth()+1;
+        let day= date.getDate();
 
-        return `${hours}:${minutes.toString().padStart(2, "0")}`;
+        return `${month}/${day} ${hours}:${minutes.toString().padStart(2, "0")}${ampm}`;
 
 }
 }

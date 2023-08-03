@@ -92,10 +92,11 @@ function displayForecast() {
         document.getElementById("test").innerHTML="Heat Wave";
         document.body.style.background = "red";
         document.getElementById("test").style.fontSize="500%"
-        document.getElementById("test").style.fontWeight="500%"
 
     } else {
         document.getElementById("test").innerHTML="No Heat Wave";
+        document.body.style.background = "rgb(1, 1, 20)";
+        document.getElementById("test").style.fontSize="100%"
         
     }
 }

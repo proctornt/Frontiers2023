@@ -1,6 +1,6 @@
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
-    left: -80px; /* Position them outside of the screen */
+    left: -30px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
     padding: 15px; /* 15px padding */
     width: 150px; /* Set a specific width */
@@ -11,8 +11,9 @@
     background-color: #f44336;
   }
   
-  #mySidenav a:hover {
-   left: 0; }
+  /* #mySidenav a:hover {
+   left: 0;} /* On mouse-over, make the elements appear as they should
+  } */
 
   div#tswsidecol {
     float: left;
@@ -24,7 +25,7 @@
     width: 80%;
   }
   
-  @media only screen and ( max-width : 629px ) {
+  /* @media only screen and ( max-width : 629px ) {
     div#tswsidecol {
       float: none;
       width: 100%;
@@ -34,7 +35,7 @@
       width: 100%;
     }
   }
-  
+   */
   /* The about link: 20px from the top with a green background */
   /* #about {
     top: 20px;

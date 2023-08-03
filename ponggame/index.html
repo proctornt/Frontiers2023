@@ -6,20 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dino Pong</title>
     <link rel="stylesheet" href="pong.css">
+    <link rel="stylesheet" href="../sidebar2.css">
 </head>
 <body>
+    <div id="tswcontainer">
     <audio id="dino" src="../ponggame/t-rex-scream-quicksoundscom_heEhYFHM.mp3"></audio>
-    <h1>Dino Pong</h1>
-    <canvas id="gameboard" width="500" height="500"></canvas>
-    <div id="scoreboard">0 : 0</div>
-    <button id="reset" onclick="resetGame()">RESET</button>
-    <br />
-    <input type="checkbox" id="cpucheck">
-    <label>CPU Play</label>
+    <div id="tswsidecol">
+        <div id="mySidenav" class="sidenav">
+          <!-- start of side column: insert your navigation menu, etc, here -->
+          <h3> Directory:</h3>
+          <p> <a href="../IntrestsPage/myinterest.html">Interests</a>. </p>
+          <br/>
+          <p> <a href="../MyHome/myhome.html">My Home Town</a>. </p>
+          <br/>
+          
+          <p><a href="../NumGame/index.html">Number Game</a></p>
+          <br/>
+          
+          
+          <br/>
+          <br/>
+          <p><a href="../ClickGame/index.html">Click Game</a></p>
+          <br/>
+          <br/>
+          <br/>
+          
+          
+           
+          <p><a href="../index.html">Home</a></p>
+          <br/>
+          <br/>
+          <br/>
+          <p><a href="../weather/index.html">Weather App</a></p>
 
-    <script src="Ball.js"></script>
-    <script src="Paddle.js"></script>
-    <script src="pong.js"></script>
-    <script src="controls.js"></script>
+    </div>
+    </div>
+    <div id="tswcontent">
+        <h1>Dino Pong</h1>
+        <canvas id="gameboard" width="500" height="500"></canvas>
+        
+        <div id="scoreboard">0 : 0</div>
+        <button id="reset" onclick="resetGame()">RESET</button>
+        <br />
+        <input type="checkbox" id="cpucheck">
+        <label>CPU Play</label>
+    
+    
+        <script src="Ball.js"></script>
+        <script src="Paddle.js"></script>
+        <script src="pong.js"></script>
+        <script src="controls.js"></script>
+    </div>
+    
+    </div>
 </body>
 </html>

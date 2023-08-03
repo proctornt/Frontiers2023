@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robbie &amp; Prof Loi</title>
+    <title>Alex^2 &amp; Noah Weather</title>
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>
+    <h1>Alex^2 &amp; Noahs #banging weather servie</h1>
     <div id="dev-controls">
         <div class="controls">
             <button onclick="getLocation()">LOAD LOCATION</button>
-            <button onclick="getWeather()">LOAD WEATHER</button>
+            <!-- <button onclick="getWeather()">LOAD WEATHER</button> -->
             <button onclick="getForecast()">LOAD FORECAST</button>
-            <button onclick="getPollution()">LOAD POLLUTION</button>
+            <!-- <button onclick="getPollution()">LOAD POLLUTION</button> -->
         </div>
         <div class="controls">
             <input id="testnum" type="number" min="1" max="5" value="1">
             <button onclick="testLocation()">TEST LOCATION</button>
-            <button onclick="testWeather()">TEST WEATHER</button>
+            <!-- <button onclick="testWeather()">TEST WEATHER</button> -->
             <button onclick="testForecast()">TEST FORECAST</button>
-            <button onclick="testPollution()">TEST POLLUTION</button>
+            <!-- <button onclick="testPollution()">TEST POLLUTION</button> -->
         </div>
     </div>
     
     <h2 id="location">LOCATION</h2>
-    <label> Enter Town</label><input id="town">
+    <label> Enter Town</label><input id="town" onchange="myGetCoords()">
     
-    <p id="weather-report">WEATHER REPORT</p>
+    <!-- <p id="weather-report">WEATHER REPORT</p> -->
     <p id="test"> Are we in a heat wave?</p>
     
     <table id="forecast-table"></table>
@@ -39,5 +40,6 @@
     
     <script src="./display.js"></script>
     <script src="./trigger.js"></script>
+    <script src="./sequence.js"></script>
 </body>
 </html>
